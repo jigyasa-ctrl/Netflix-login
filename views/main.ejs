@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #000000;
+        color:white;
+    }
+    nav{
+        display:flex;
+        
+        align-items: center;
+        flex-direction: row;
+        height:100px;
+  
+    }
+
+    .hero{
+      
+display: flex;
+
+flex-direction: column;
+    }
+    nav img{
+        padding-left:20px;
+        left:0;
+        height:90px;
+       
+    }
+    nav button{
+        
+        background-color:#E50914 ;
+        color:white;
+        font-size:20px;
+        border-style: none;
+        height:40px;
+       padding:10px;
+       margin:5px;
+       border-radius:5px;;
+        
+    }
+    nav div{
+        position: absolute;
+        right:0;
+        padding:20px;
+       
+    }
+    .hero{
+        
+        background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/bd777948-0e8f-4f7f-b0bf-f7e0ee0875e5/cd5b9c59-183b-4b03-9caf-934bc11565b8/IN-en-20200627-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+        background-size: cover;
+        color:white;
+        opacity: 0.8;
+        padding-bottom:90px;
+    }
+    .content, .content-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container{
+        text-align:center;
+        flex-direction: column;
+        padding-top:50px;
+        padding-bottom: 50px;
+        padding-left:80px;
+        padding-right:80px;
+        font-family:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       
+        
+    }
+    .content-container h1{
+        
+        width:65%;
+        font-size:55px;
+        font-weight:700;
+        line-height: 55px;
+        margin-bottom:25px;
+    }
+    .content-container h3{
+        font-size: 26px;
+        width:60%;
+    }
+    footer p{
+        font-size: 26px;
+        width:60%;
+        margin:30px;
+        text-align: center;
+        width:90%;
+        padding-left:40px;
+        font-family:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; ;
+    }
+    .content-container div{
+        width:90%;
+        margin:25px;
+        
+    }
+    .content-container input{
+        width:60%;
+        height:50px;
+    
+    }
+    .content-container input::placeholder{
+        font-size: 20px;
+        padding-left:10px;
+    }
+    .content-container button{
+        height:50px;
+        color:white;
+        border-style:none;
+        background-color:#E50914 ;
+        padding-left:10px;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    .hero .main-img{
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .hero button a{
+        color:white;
+        text-decoration: none;
+    }
+     .image-con img{
+        
+        height:300px;
+        padding-right:70px;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+   
+    .image-con3 img{
+        height:350px;
+        padding-right:120px;
+        margin-top:50px;
+        margin-bottom:50px;
+
+    }
+    .content-secton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px solid gray;
+
+    }
+    .image-con2 img{
+        height:350px;
+        padding-left:60px;
+        z-index: 1;
+    }
+    
+
+</style>
+<body>
+    <div class='hero'>
+        <nav>
+    <img src='http://nativeadvertisinginstitute.com/wp-content/uploads/2015/03/Netflix_Logo_Digital-Video.png'>
+    <div>
+    <button><a href='/login'>Log in</a> </button>
+    <button><a href='/register'>Sign up</a></button>
+    </div>    
+</nav>
+
+<div class='content'>
+    <div class='content-container'>
+        <h1>Thousands of TV shows & movies. Entertainment guaranteed.</h1>
+        <h3>You'll love Netflix! If you don't, cancel within 21 days for a refund.</h3>
+        
+        <div>
+            <input placeholder="Enter your Email">
+            <button>Get Started <i></i></button>
+        </div>
+        <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+    </div>
+</div>
+
+</div> 
+
+
+<div class='content-secton'>
+    <div>
+        <div class='content-container'>
+            <h1>Enjoy on your TV</h1>
+            <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+        </div>
+    </div>
+    <!--Tv section-->
+    <div class='image-con'>
+    <img src='https://www.cabletv.com/app/uploads/netflix-stranger-things-1.png'>
+</img>
+    </div>
+</div>
+
+
+<div class='content-secton'>
+    
+    <!--Tv section-->
+    <div class='image-con2'>
+        <img src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg'>
+        </img>
+    </div>
+
+    <div>
+        <div class='content-container'>
+            <h1>Download your shows to watch offline.</h1>
+            <h3>Save your favourites easily and always have something to watch.
+            </h3>
+        </div>
+    </div>
+</div>
+
+
+<div class='content-secton'>
+    <div>
+        <div class='content-container'>
+            <h1>Watch everywhere.</h1>
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+    </div>
+    <!--Tv section-->
+    <div class='image-con3'>
+    <img src='https://www.dailydot.com/wp-content/uploads/f3c/f0/608ff7219fe36669-e1497363520697.png'>
+
+</img>
+    </div>
+</div>
+
+<footer>
+    <p>Copyright © 2020 |Crafted by Jigyasa Upadhyay</p>
+</footer>
+</body>
+</html>
